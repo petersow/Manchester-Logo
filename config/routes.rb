@@ -4,6 +4,8 @@ ManchesterLogo::Application.routes.draw do
 
   # Sample of regular route:
   match 'logo/image1' => 'logo#image1'
+  match 'logo/manchester_logo' => 'logo#manchester_logo'
+
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
